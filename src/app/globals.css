@@ -1,0 +1,57 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-bg: #0a0f0c;
+  --color-surface: #131b16;
+  --color-surface-elevated: #18221c;
+  --color-border: #1f2b24;
+  --color-accent: #10b981;
+  --color-accent-light: #34d399;
+  --color-text: #ffffff;
+  --color-muted: #8a9690;
+  --color-faint: #4c5a53;
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+  --font-display: var(--font-space), system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+}
+
+::selection {
+  background: rgba(16, 185, 129, 0.35);
+  color: #fff;
+}
+
+.prose-legal h2 {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  color: var(--color-text);
+}
+
+.prose-legal p,
+.prose-legal li {
+  color: var(--color-muted);
+  line-height: 1.7;
+  margin-bottom: 0.75rem;
+}
+
+.prose-legal ul {
+  list-style: disc;
+  padding-left: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.prose-legal a {
+  color: var(--color-accent-light);
+  text-decoration: underline;
+}

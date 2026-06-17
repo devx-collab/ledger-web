@@ -36,6 +36,10 @@ export function buildMetadata({
     keywords: allKeywords,
     metadataBase: new URL(site.url),
     alternates: { canonical: url },
+    icons: {
+      icon: '/icon.png',
+      apple: '/icon.png',
+    },
     openGraph: {
       type: 'website',
       locale: 'en_US',

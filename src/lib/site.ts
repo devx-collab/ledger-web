@@ -4,10 +4,10 @@ export const site = {
   description:
     'Ledger is a private, offline net worth tracker. Track accounts, assets, and liabilities on your device — no bank linking, no cloud required.',
   url: process.env.NEXT_PUBLIC_SITE_URL ?? 'https://ledger.app',
-  supportEmail: 'support@ledger.app',
-  legalEmail: 'legal@ledger.app',
-  company: 'Safar',
-  packageId: 'com.safar.ledger',
+  supportEmail: 'info@sylvabit.com',
+  legalEmail: 'info@sylvabit.com',
+  company: 'Sylvabit',
+  packageId: 'com.sylvabit.ledger',
   /** Replace with live URLs when published */
   appStoreUrl: '#',
   playStoreUrl: '#',

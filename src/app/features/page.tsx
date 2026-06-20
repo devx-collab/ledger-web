@@ -13,7 +13,7 @@ export default function FeaturesPage() {
       <PageHeader
         eyebrow="Features"
         title="Everything you need to track net worth"
-        description="Ledger combines manual precision with a calm, private interface — no feeds, no ads, no bank passwords."
+        description="Vaultio combines manual precision with a calm, private interface — no feeds, no ads, no bank passwords."
       />
 
       <section className="mx-auto max-w-6xl px-5 pb-16">

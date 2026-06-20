@@ -12,7 +12,7 @@ export default function FaqPage() {
       <PageHeader
         eyebrow="FAQ"
         title="Common questions"
-        description="Quick answers about privacy, pricing, and how Ledger works."
+        description="Quick answers about privacy, pricing, and how Vaultio works."
       />
 
       <section className="mx-auto max-w-3xl px-5 pb-20">

@@ -20,7 +20,7 @@ export default function HomePage() {
               <div className="absolute inset-0 scale-150 rounded-full bg-accent/10 blur-2xl" aria-hidden />
               <Image
                 src="/icon.png"
-                alt="Ledger app icon"
+                alt="Vaultio app icon"
                 width={96}
                 height={96}
                 className="relative rounded-2xl shadow-2xl shadow-accent/20"

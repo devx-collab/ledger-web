@@ -1,13 +1,13 @@
 export const site = {
-  name: 'Ledger',
+  name: 'Vaultio',
   tagline: 'Your net worth. Private. Offline.',
   description:
-    'Ledger is a private, offline net worth tracker. Track accounts, assets, and liabilities on your device — no bank linking, no cloud required.',
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? 'https://ledger.app',
+    'Vaultio is a private, offline net worth tracker. Track accounts, assets, and liabilities on your device — no bank linking, no cloud required.',
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? 'https://vaultio.app',
   supportEmail: 'info@sylvabit.com',
   legalEmail: 'info@sylvabit.com',
   company: 'Sylvabit',
-  packageId: 'com.sylvabit.ledger',
+  packageId: 'com.sylvabit.vaultio',
   /** Replace with live URLs when published */
   appStoreUrl: '#',
   playStoreUrl: '#',
@@ -32,7 +32,7 @@ export const features = [
   {
     icon: 'shield',
     title: 'No bank linking',
-    description: 'You enter your own numbers. Ledger never connects to your bank or brokerage.',
+    description: 'You enter your own numbers. Vaultio never connects to your bank or brokerage.',
   },
   {
     icon: 'offline',
@@ -75,15 +75,15 @@ export const freeVsPro = {
 
 export const faqItems = [
   {
-    q: 'Does Ledger connect to my bank?',
-    a: 'No. Ledger is manual-entry by design. You control every balance and holding — nothing is pulled from third-party aggregators.',
+    q: 'Does Vaultio connect to my bank?',
+    a: 'No. Vaultio is manual-entry by design. You control every balance and holding — nothing is pulled from third-party aggregators.',
   },
   {
     q: 'Where is my data stored?',
     a: 'On your device in local storage. Optional Premium backup exports a file you choose to save in Files or iCloud Drive.',
   },
   {
-    q: 'Is Ledger a subscription?',
+    q: 'Is Vaultio a subscription?',
     a: 'No. Premium is a one-time purchase for lifetime access on your account, processed through the App Store or Google Play.',
   },
   {

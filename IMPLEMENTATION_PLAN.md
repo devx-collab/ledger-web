@@ -1,12 +1,12 @@
-# Ledger Marketing Website — Implementation Plan
+# Vaultio Marketing Website — Implementation Plan
 
-**Status:** Mobile app parked · Marketing site in `ledger-web/` (Next.js static export)
+**Status:** Mobile app parked · Marketing site in `net-worth-tracker-web/` (Next.js static export)
 
 ## Goals
 
 | Goal | Approach |
 |------|----------|
-| Front-facing brand site | Dark emerald Ledger theme matching the app |
+| Front-facing brand site | Dark emerald Vaultio theme matching the app |
 | SEO | App Router metadata, JSON-LD, sitemap, robots, semantic HTML |
 | Store readiness | App Store + Google Play placeholders (swap URLs when live) |
 | Compliance | Privacy, Terms, Cookies, Support — required for store submission |
@@ -46,7 +46,7 @@
 
 - net worth tracker app
 - offline net worth tracker
-- personal finance ledger app
+- private personal finance app
 - track net worth without bank linking
 - private wealth tracker India
 - net worth calculator app
@@ -78,7 +78,7 @@
 ### Pre-launch checklist
 
 - [ ] Set `NEXT_PUBLIC_SITE_URL` to production domain
-- [ ] Replace `support@ledger.app` with real inbox
+- [ ] Replace placeholder support email with real inbox (current: `info@sylvabit.com`)
 - [ ] Add real App Store / Play Store URLs in `src/lib/site.ts`
 - [ ] Submit sitemap in Google Search Console
 - [ ] Verify Privacy/Terms match actual app behaviour before store review
@@ -117,7 +117,7 @@ Badges render disabled style with “Coming soon” until URLs are not `#`.
 ## Build & deploy
 
 ```bash
-cd ledger-web
+cd net-worth-tracker-web
 npm install
 npm run dev        # http://localhost:3000
 npm run build      # outputs to out/

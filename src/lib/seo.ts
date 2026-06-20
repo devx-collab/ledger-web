@@ -4,13 +4,14 @@ import { site } from './site';
 const defaultKeywords = [
   'net worth tracker',
   'offline net worth app',
-  'personal finance ledger',
+  'private personal finance app',
   'track net worth without bank',
   'private wealth tracker',
   'asset liability tracker',
   'net worth calculator app',
   'offline finance app India',
-  'Ledger net worth',
+  'Vaultio',
+  'Vaultio net worth tracker',
 ];
 
 type PageSeo = {
@@ -64,45 +65,45 @@ export const pageSeo = {
     title: site.name,
     description: site.description,
     path: '/',
-    keywords: ['download net worth tracker', 'Ledger app'],
+    keywords: ['download net worth tracker', 'Vaultio app'],
   }),
   features: buildMetadata({
     title: 'Features',
     description:
-      'Explore Ledger features: offline net worth tracking, accounts, holdings, charts, PDF export, multi-currency, and secure backup.',
+      'Explore Vaultio features: offline net worth tracking, accounts, holdings, charts, PDF export, multi-currency, and secure backup.',
     path: '/features/',
     keywords: ['net worth chart app', 'manual portfolio tracker'],
   }),
   pricing: buildMetadata({
     title: 'Pricing',
     description:
-      'Ledger Premium is a one-time purchase for lifetime access. No subscription. Compare Free vs Pro plans.',
+      'Vaultio Premium is a one-time purchase for lifetime access. No subscription. Compare Free vs Pro plans.',
     path: '/pricing/',
     keywords: ['lifetime premium finance app', 'one time purchase net worth'],
   }),
   faq: buildMetadata({
     title: 'FAQ',
-    description: 'Frequently asked questions about Ledger — privacy, offline storage, pricing, and store availability.',
+    description: 'Frequently asked questions about Vaultio — privacy, offline storage, pricing, and store availability.',
     path: '/faq/',
   }),
   privacy: buildMetadata({
     title: 'Privacy Policy',
-    description: 'How Ledger handles your data: local storage, optional backup, purchases via app stores.',
+    description: 'How Vaultio handles your data: local storage, optional backup, purchases via app stores.',
     path: '/privacy/',
   }),
   terms: buildMetadata({
     title: 'Terms of Service',
-    description: 'Terms of Service for using the Ledger mobile application and website.',
+    description: 'Terms of Service for using the Vaultio mobile application and website.',
     path: '/terms/',
   }),
   cookies: buildMetadata({
     title: 'Cookie Policy',
-    description: 'Cookie and similar technology policy for the Ledger marketing website.',
+    description: 'Cookie and similar technology policy for the Vaultio marketing website.',
     path: '/cookies/',
   }),
   support: buildMetadata({
     title: 'Support',
-    description: 'Contact Ledger support for help, feedback, and data-related requests.',
+    description: 'Contact Vaultio support for help, feedback, and data-related requests.',
     path: '/support/',
   }),
 } as const;

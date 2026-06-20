@@ -13,7 +13,7 @@ export default function SupportPage() {
       <PageHeader
         eyebrow="Support"
         title="We're here to help"
-        description="Questions about Ledger, Premium, privacy, or store availability — reach out anytime."
+        description="Questions about Vaultio, Premium, privacy, or store availability — reach out anytime."
       />
 
       <section className="mx-auto max-w-2xl px-5 pb-12">

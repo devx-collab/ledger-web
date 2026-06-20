@@ -1,6 +1,6 @@
-# Ledger Marketing Website
+# Vaultio Marketing Website
 
-Static Next.js site for the Ledger net worth tracker app.
+Static Next.js site for the Vaultio net worth tracker app.
 
 ## Quick start
 

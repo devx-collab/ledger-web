@@ -13,7 +13,7 @@ export default function PricingPage() {
       <PageHeader
         eyebrow="Pricing"
         title="Pay once. No subscription. Ever."
-        description="Ledger Premium is a single lifetime unlock. Your core tracker stays free."
+        description="Vaultio Premium is a single lifetime unlock. Your core tracker stays free."
       />
 
       <section className="mx-auto max-w-lg px-5 pb-12">
